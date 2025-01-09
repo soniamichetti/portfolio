@@ -1,0 +1,244 @@
+/* Style général */
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+    color: black;
+}
+
+/* Header */
+#header {
+    background-color: #333;
+    /* Couleur de fond du header */
+    font-weight: bold;
+}
+
+/* Barre de navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* Répartition des onglets */
+    align-items: center;
+    /* Centre verticalement */
+    padding: 10px 0;
+    /* Espacement vertical dans le header */
+}
+
+nav a {
+    flex: 1;
+    /* Les onglets occupent une largeur égale */
+    color: white;
+    /* Couleur du texte */
+    text-align: center;
+    /* Centrer le texte dans chaque onglet */
+    text-decoration: none;
+    /* Pas de soulignement */
+    padding: 15px 0;
+    /* Espacement interne vertical */
+    margin: 0 10px;
+    /* Espacement horizontal entre les onglets */
+    background-color: #444;
+    /* Couleur de fond des onglets */
+    border-radius: 0;
+    /* Forme rectangulaire */
+    transition: background-color 0.3s ease;
+    /* Transition pour le hover */
+}
+
+/* Espacement supplémentaire pour les onglets extrêmes */
+nav a:first-child {
+    margin-left: 20px;
+    /* Espace supplémentaire à gauche */
+}
+
+nav a:last-child {
+    margin-right: 20px;
+    /* Espace supplémentaire à droite */
+}
+
+/* Effet au survol */
+nav a:hover {
+    background-color: #555;
+    /* Couleur légèrement grisée */
+}
+
+main {
+    text-align: center;
+    /* Centrer le texte */
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* Bordure fine et grise */
+    border-radius: 10px;
+    /* Coins arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Ombre subtile */
+    max-width: 800px;
+    /* Largeur maximale */
+}
+
+/*
+main {
+    flex: 1; // Permet de s'étendre verticalement si nécessaire 
+    display: flex; // Activer Flexbox pour centrer les sections 
+    justify-content: center; /* Centrer horizontalement 
+    align-items: center; /* Centrer verticalement 
+    text-align: center; /* Centrer le contenu du texte 
+    padding: 20px 30px; /* Espacement interne 
+    background-color: #555; /* Fond gris clair 
+    border: 1px solid #ddd; /* Bordure fine 
+    border-radius: 10px; /* Coins arrondis 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre subtile 
+    max-width: 600px; /* Largeur maximale 
+    width: 90%; /* Pour s'adapter aux petits écrans 
+    color: white; /* Couleur du texte 
+    margin: auto; /* S'assurer du centrage global 
+}
+*/
+main section {
+    margin-bottom: 20px;
+    /* Espacement entre les sections */
+}
+
+/* Style du bouton */
+button {
+    padding: 10px 20px;
+    /* Taille interne du bouton */
+    font-size: 16px;
+    /* Taille de la police */
+    color: white;
+    /* Texte blanc */
+    background-color: #007bff;
+    /* Bleu moderne */
+    border: none;
+    /* Supprimer les bordures */
+    border-radius: 5px;
+    /* Coins arrondis */
+    cursor: pointer;
+    /* Curseur main */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Ombre */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    /* Transition douce */
+}
+
+/* Effet au survol */
+button:hover {
+    background-color: #0056b3;
+    /* Bleu plus foncé */
+    transform: scale(1.05);
+    /* Agrandissement léger */
+}
+
+/* Effet au clic */
+button:active {
+    transform: scale(0.95);
+    /* Réduction légère */
+}
+
+footer {
+    text-align: center;
+    /* Centrer le texte du footer */
+    margin-top: 20px;
+    /* Espacement entre le footer et le contenu */
+    font-size: 14px;
+    color: black;
+    /* Couleur de texte plus claire */
+}
+
+
+.links-container {
+    text-align: center;
+    /* Centrer les éléments horizontalement */
+}
+
+.links-container a {
+    display: inline-block;
+    /* Afficher les éléments côte à côte */
+    margin: 0 10px;
+    /* Espacement entre les liens */
+    vertical-align: middle;
+    /* Aligner les éléments verticalement */
+}
+
+/* Image de LinkedIn */
+.links-container img {
+    vertical-align: middle;
+    /* S'assurer que l'image est bien alignée avec le bouton */
+}
+
+.main {
+    display: flex;
+    /* Activer Flexbox pour le corps */
+    justify-content: center;
+    align-items: center;
+    /* Centrer verticalement */
+}
+
+#pdf-container {
+    width: 100%;
+    height: 500px;
+    overflow: auto;
+    border: 1px solid #ccc;
+  }
+  canvas {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .demi-page-container {
+    display: flex; /* Active le mode Flexbox */
+    justify-content: space-between; /* Sépare les deux éléments avec de l'espace entre eux */
+    align-items: center; /* Centre verticalement */
+}
+
+
+.outils-container {
+    display: flex; /* Active le mode Flexbox */
+    justify-content: center; /* Centre les logos horizontalement */
+    align-items: center; /* Centre les logos verticalement */
+    flex-wrap: wrap; /* Permet d'aller à la ligne si nécessaire */
+    gap: 20px; /* Ajoute de l'espace entre les images */
+    margin: 20px auto; /* Centrage du conteneur et espacement vertical */
+    max-width: 800px; /* Limite la largeur du conteneur */
+}
+
+.outils-container img {
+    width: 100px; /* Largeur fixe pour les logos */
+    height: auto; /* Garde les proportions */
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+.outils-container img:hover {
+    transform: scale(1.2); /* Agrandit légèrement le logo au survol */
+}
+
+
+img#img-sql{
+    width: 100px; /* Largeur fixe pour les logos */
+    height: auto; /* Garde les proportions */
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+img#img-sql:hover{
+    transform: scale(1.2); /* Agrandit légèrement le logo au survol */
+}
+
+
+.img-veille{
+    display: flex; /* Active le mode Flexbox */
+    justify-content: center; /* Centre les logos horizontalement */
+    align-items: center; /* Centre les logos verticalement */
+    flex-wrap: wrap; /* Permet d'aller à la ligne si nécessaire */
+    gap: 20px; /* Ajoute de l'espace entre les images */
+    margin: 20px auto; /* Centrage du conteneur et espacement vertical */
+}
+
+.img-veille img{
+    width: 25%; /* Largeur fixe pour les logos */
+    height: auto; /* Garde les proportions */
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+.img-veille img:hover{
+    transform: scale(1.2); /* Agrandit légèrement le logo au survol */
+}
