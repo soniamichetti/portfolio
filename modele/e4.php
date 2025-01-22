@@ -5,7 +5,7 @@
 </style>
 
 <script>
-    const url = '../images/grilleeval.pdf';
+    const url = '../images/tabcompetence_sonia.pdf';
     const pdfjsLib = window['pdfjs-dist/build/pdf'];
 
     // Charge le PDF
