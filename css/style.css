@@ -242,3 +242,14 @@ img#img-sql:hover{
 .img-veille img:hover{
     transform: scale(1.2); /* Agrandit légèrement le logo au survol */
 }
+
+a.sources {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #0073e6; /* Remplace par une couleur agréable */
+    font-weight: bold;
+}
+
+a.sources:hover {
+    color: #005bb5; /* Couleur au survol */
+}
+
