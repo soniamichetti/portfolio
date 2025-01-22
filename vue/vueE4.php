@@ -74,6 +74,11 @@
                 <canvas id="pdf-render"></canvas>
             </div>
             </p>
+            <p>
+                <a target="_blank" href='../images/tabcompetence_sonia.pdf'>
+                    <button>Consulter mon tableau de compétences</button>
+                </a>
+            </p>
         </section>
     </main>
 </div>
