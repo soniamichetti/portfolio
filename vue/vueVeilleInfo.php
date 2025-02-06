@@ -42,8 +42,8 @@
             <p><h4>Sources : </h4>
             Source 1 : <a class="sources" href="https://www.vaadata.com/blog/fr/comment-stocker-mots-de-passe-de-maniere-securisee-base-de-donnees/" target="_blank">Vaadata</a>, 25 mai 2020  <BR>
             Source 2 : <a class="sources" href="https://ewatchers.org/article/ne-stockez-pas-les-mots-de-passe-de-vos-utilisateurs-en-clair-10" target="_blank"> Ewatchers</a>, 30 novembre 2020 <br>
-            Source 3 : <a class="sources" href="https://www.cnil.fr/fr/securite-chiffrer-garantir-lintegrite-ou-signer">la CNIL</a>, 5 mai 2023 <br>
-            Source 4 : <a class="sources" href=" https://fr.wikipedia.org/wiki/Fonction_de_hachage">Wikipédia</a>, 26 novembre 2024 (dernière modification)<br>
+            Source 3 : <a class="sources" href="https://www.cnil.fr/fr/securite-chiffrer-garantir-lintegrite-ou-signer" target="_blank">la CNIL</a>, 5 mai 2023 <br>
+            Source 4 : <a class="sources" href=" https://fr.wikipedia.org/wiki/Fonction_de_hachage" target="_blank">Wikipédia</a>, 20 janvier 2025 (dernière modification)<br>
             Source 5 : <a class="sources" href="https://www.kaspersky.fr/blog/how-to-store-passwords/21014/" target="_blank">Kaspersky</a>, 29 Sep 2023 
             </p>
         </section>

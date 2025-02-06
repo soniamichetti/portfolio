@@ -17,7 +17,7 @@
             <nav>
                 <a id ="mapres" href="mapresentation.php">Ma présentation</a>
                 <a id ="presbts" href="presentationbts.php">Présentation du BTS</a>
-                <a id="projet" href="projet.php">Projet</a>
+                <a id="projet" href="projet.php">Projets</a>
                 <a id="e4" href="e4.php">E4</a>
                 <a id="e5" href="e5.php">E5</a>
                 <a id="veille" href="veilleinfo.php">Veille informatique</a>
