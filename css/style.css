@@ -11,7 +11,12 @@ body {
 #header {
     background-color: #333;
     /* Couleur de fond du header */
-    font-weight: bold;
+    font-weight: bold; position: fixed; /* Fixe le header en haut */
+    top: 0; /* Le colle au bord supérieur */
+    left: 0;
+    width: 100%; /* S'assure qu'il prend toute la largeur */
+    background-color: #333; /* Maintient la couleur de fond */
+    z-index: 1000; /* Met le header au-dessus des autres éléments */
 }
 
 /* Barre de navigation */
@@ -75,6 +80,7 @@ main {
     /* Ombre subtile */
     max-width: 800px;
     /* Largeur maximale */
+    padding-top: 100px;
 }
 
 /*
